@@ -1,0 +1,11 @@
+// TODO
+a.logoSpace{
+  display: block;
+  width: 721px;
+  padding: 21px;
+  margin: 1rem auto 0 auto;
+
+  @media (max-width: 700px){
+    width: 100%;
+  }
+}

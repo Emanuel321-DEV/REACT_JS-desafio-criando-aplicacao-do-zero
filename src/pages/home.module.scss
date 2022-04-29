@@ -1,0 +1,42 @@
+// // TODO
+
+h3.title_home{
+  color: white;
+}
+
+button.loadMorePostsBTN{
+  background-color: transparent;
+  border: 0;
+  color: var(--pink);
+  font-weight: bolder;
+  width: 176px;
+  height: 22px;
+
+}
+
+p.text_home{
+  color: var(--info);
+  margin: 1rem 0;
+}
+
+time.time_home, span.span_home {
+  display: block;
+  color: var(--info)
+}
+
+div.data_author_home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+  span {
+    margin-left: 3.5rem;
+  }
+
+  @media (max-width: 500px){
+    margin-left: 0;
+    justify-content: space-between;
+  }
+
+}

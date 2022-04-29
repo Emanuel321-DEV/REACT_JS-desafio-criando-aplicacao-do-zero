@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+// TODO
+
+:root {
+  --pink: #FF57B2;
+  --background: #1A1D23;
+  --background-light:#282C34;
+  --info: #BBBBBB;
+  --bodytext: #D7D7D7;
+}
+
+body {
+  background-color: var(--background);
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+ul{
+  text-decoration: none;
+  list-style: none;
+}

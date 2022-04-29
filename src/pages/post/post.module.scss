@@ -1,0 +1,60 @@
+
+h1.title_post{
+  color:white;
+  font-size: 40px;
+}
+
+div.image{
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+
+ul.data_author_post{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+
+
+  color: var(--info);
+
+  margin: 1rem 0 4rem 0;
+
+  @media (max-width: 400px)
+  {
+    width: 380px;
+  }
+
+
+
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  span {
+      margin-left: 5px;
+  }
+
+
+
+}
+
+
+h2.title_content_post{
+  color: white;
+  margin: 2rem 0;
+}
+
+div.article_post{
+  color: var(--bodytext);
+}
